@@ -16,6 +16,7 @@
 - 根据收集图的Shadow Color, Width Scale 调整ue里unitychan人物的参数，觉得很像了就记录在labels.csv表里面，与图片一一对应,目前表里的是垃圾数据，需要自己手动调整
 - csv表填完之和开始训练onnx模型，运行train.py导出onnx，最后将其拖入ue编辑器
 - 选择你想要的风格图片，在Content创建images目录放入
+- 详细使用请查看[use-mooatoon/test/README.md at main · 222twotwotwo/use-mooatoon](https://github.com/222twotwotwo/use-mooatoon/blob/main/test/README.md)
 
 
 **2.** ue中使用ONNX模型
